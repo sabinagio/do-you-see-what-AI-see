@@ -24,11 +24,12 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 
 #### Lessons Learned
 1. Collect data early - it takes a while for images to download
+2. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly
 
 #### Results
 
 #### References
-[1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext)
+[1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext) - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*
 
 <details>
 # Acknowledgements
