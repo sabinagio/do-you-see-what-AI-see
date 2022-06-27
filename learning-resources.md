@@ -7,8 +7,4 @@ I found the following material useful for completing this project - in this orde
 
 2. [Introduction to Computer Vision and Image Processing](https://www.coursera.org/learn/introduction-computer-vision-watson-opencv/home/info) - weeks 1-2 - Useful for understanding basic image structure & manipulation
 
-3. []() - Useful for understanding how convolutions work
-
 3. [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow?specialization=tensorflow-in-practice) - Great introduction to using tensorflow to set up deep neural networks (DNNs) and convolutional neural networks (CNNs)
-
-3. 

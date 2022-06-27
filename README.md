@@ -15,10 +15,12 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 
 1. [Data Collection & Exploration]()
 2. [Image Augmentation]()
-...
-x. [Learning Resources]()
+3. [Neural Network Architectures & Performance]()
+4. [Learning Resources]()
 
 #### Project Challenges 
+1. Selecting a suitable project
+2. Acquiring the knowledge to finish the project
 
 #### Lessons Learned
 1. Collect data early - it takes a while for images to download
@@ -26,10 +28,10 @@ x. [Learning Resources]()
 #### Results
 
 #### References
-[1] 
-[2]
-[3]
+[1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext)
 
+<details>
 # Acknowledgements
 
 Thank you Xisca & Arek for the support, inspiration, and encouragement throughout the bootcamp and especially during the final project :star:
+</details>
