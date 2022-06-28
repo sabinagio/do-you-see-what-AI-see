@@ -30,6 +30,8 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 
 #### References
 [1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext) - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*
+[2] [CNNs for Automatic Glaucoma Assessment using Fundus Images: An Extensive Validation](https://figshare.com/s/c2d31f850af14c5b5232)
+[3] [Cataract dataset](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)
 
 <details>
 # Acknowledgements
