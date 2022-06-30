@@ -57,11 +57,13 @@ def image_generators(train_dir, val_dir, train_img_size, val_img_size):
   # Apply the ImageGenerator to the training & validation datasets
   train_generator = train_datagen.flow_from_directory(directory=train_dir,
                                                       batch_size=20,
+                                                      color_mode='rgb',
                                                       class_mode='binary',
                                                       target_size=train_img_size)
 
   val_generator = val_datagen.flow_from_directory(directory=val_dir,
                                                                 batch_size=20,
+                                                                color_mode='rgb',
                                                                 class_mode='binary',
                                                                 target_size=val_img_size)
   
