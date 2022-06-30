@@ -34,7 +34,7 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 [3] [Cataract dataset](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)
 
 <details>
-<summary># Acknowledgements</summary>
+<summary>Acknowledgements</summary>
 
 Thank you Xisca & Arek for the support, inspiration, and encouragement throughout the bootcamp and especially during the final project :star:
 </details>
