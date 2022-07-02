@@ -24,10 +24,11 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 3. Choosing an effective training strategy  
 
 #### Lessons Learned
-1. Collect data early - it takes a while for images to download.
-2. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly.
-3. Ensure you're able to run your project in the cloud (either via Google Colab or a different cloud provider), as training might be too taxing for your local machine.
-
+1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
+2. Collect data early - it takes a while for images to download.
+3. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly.
+4. Ensure you're able to run your project in the cloud (either via Google Colab or a different cloud provider), as training might be too taxing for your local machine.
+ 
 #### Results
 
 #### References
