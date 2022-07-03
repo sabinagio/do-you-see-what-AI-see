@@ -10,3 +10,5 @@ I found the following material useful for completing this project - in this orde
 3. [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow?specialization=tensorflow-in-practice) - Great introduction to using tensorflow to set up deep neural networks (DNNs) and convolutional neural networks (CNNs)
 
 4. [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow/home/info)
+
+5. [Implementing GridSearchCV for hyperparameter tuning in Keras](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
