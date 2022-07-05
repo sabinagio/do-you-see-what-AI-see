@@ -1,6 +1,9 @@
 import os
 import shutil
 import random
+import numpy as np
+import tensorflow as tf
+import matplotlib.pyplot as plt
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Create function to split data from glaucoma & normal folders
@@ -68,3 +71,43 @@ def image_generators(train_dir, val_dir, train_img_size, val_img_size):
                                                                 target_size=val_img_size)
   
   return train_generator, val_generator
+
+# Define function to visualize results to determine if model is overfitting
+def visualize_results(history):
+  acc = history.history['accuracy']
+  val_acc = history.history['val_accuracy']
+  epochs = range(len(acc)) 
+  ax, fig = plt.subplots(figsize=(20, 4))
+  plt.subplot(121)
+  plt.plot(epochs, acc, 'r', "Training Accuracy")
+  plt.plot(epochs, val_acc, 'b', "Validation Accuracy")
+  plt.title('Training and validation accuracy')
+  loss = history.history['loss']
+  val_loss = history.history['val_loss']
+  plt.subplot(122)
+  plt.plot(epochs, loss, 'r', "Training Loss")
+  plt.plot(epochs, val_loss, 'b', "Validation Loss")
+  plt.show()
+
+# Read new images and save the true labels in a numpy array (0 - glaucoma, 1 - normal)
+def get_testing_data(directory):
+  X = []
+  y = []
+
+  files = os.listdir(directory)
+  for i, file in enumerate(files):
+    file_path = os.path.join(directory, file)
+    image = tf.keras.preprocessing.image.load_img(file_path)
+    image_data = tf.keras.preprocessing.image.img_to_array(image)
+    image_data = tf.keras.preprocessing.image.smart_resize(image_data, (178, 178))
+    X.append(image_data)    
+
+    if directory.split("/")[-1] == "glaucoma":
+      y.append(0)
+    elif directory.split("/")[-1] == "normal":
+      y.append(1)
+
+  X = np.array(X)
+  y = np.array(y)
+
+  return X, y
