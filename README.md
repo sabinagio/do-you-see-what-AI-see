@@ -15,13 +15,15 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 
 1. [Data Collection & Exploration](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/1-data-collection-and-exploration.ipynb)
 2. [Data Splitting & Augmentation](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/2-data-splitting-and-augmentation.ipynb)
-3. [Simple Neural Network Architectures & Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/3-simple-CNN-model.ipynb)
-4. [Learning Resources](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/learning-resources.md)
+3. [Simple Neural Network Architectures & Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/3-simple-CNN-model-acrima-training.ipynb)
+4. [Evaluating ACRIMA Model Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/4-acrima-models-evaluation.ipynb)
+5. [Learning Resources](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/learning-resources.md)
 
 #### Project Challenges 
 1. Selecting a suitable project
 2. Acquiring the knowledge to finish the project
 3. Choosing an effective training strategy 
+4. Improving simple model prediction accuracy
 
 #### Lessons Learned
 1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
