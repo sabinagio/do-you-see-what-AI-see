@@ -128,8 +128,8 @@ def get_testing_data(directories,  input_shape):
 
   return X, y
 
-def load_acrima_model(model_name):
-  model_dir = os.path.join("pre-trained-models", model_name)
+def load_acrima_model(model_name, directory):
+  model_dir = os.path.join(directory, model_name)
   model_weights = os.path.join(model_dir, "_".join([model_name, "weights.h5"]))
   model_path = os.path.join(model_dir, "model.json")
 
