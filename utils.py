@@ -127,3 +127,18 @@ def get_testing_data(directories,  input_shape):
   y = np.array(y)
 
   return X, y
+
+def load_acrima_model(model_name):
+  model_dir = os.path.join("pre-trained-models", model_name)
+  model_weights = os.path.join(model_dir, "_".join([model_name, "weights.h5"]))
+  model_path = os.path.join(model_dir, "model.json")
+
+  # Read and load model and weights
+  json_file = open(model_path, 'r')
+  model = json_file.read()
+  json_file.close()
+
+  model = tf.keras.models.model_from_json(model)
+  model.load_weights(model_weights)
+  model.summary()
+  return model
