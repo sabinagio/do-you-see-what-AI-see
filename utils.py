@@ -4,6 +4,8 @@ import random
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 # Create function to split data from glaucoma & normal folders
@@ -142,3 +144,13 @@ def load_acrima_model(model_name, directory):
   model.load_weights(model_weights)
   model.summary()
   return model
+
+def draw_conf_matrix(y, y_pred):
+    cm = confusion_matrix(y, y_pred)
+    sns.heatmap(cm, annot=True, fmt='g', xticklabels=["glaucoma", "normal"], \
+        yticklabels=["glaucoma", "normal"])
+    plt.show()
+    glaucoma = round(cm[0][0] * 100 / sum(cm[0]), 2)
+    print("Glaucoma prediction accuracy:", glaucoma, "%")
+    normal = round(cm[1][1] * 100 / sum(cm[1]), 2)  
+    print("Normal prediction accuracy:", normal, "%")
