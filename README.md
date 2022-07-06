@@ -1,16 +1,16 @@
-### Glaucoma detection from fundus images
+# Glaucoma detection from fundus images
 For a detailed introduction into eye diseases, glaucoma, and previous literature, please refer to [this presentation](link-to-presentation-on-GitHub).
 
-#### Project context
+## Project context
 This project is part of the Ironhack Data Analytics Remote Part Time bootcamp and was completed in 3 weeks.
 
-#### Project description
+## Project description
 In this project, I will be implementing previously used neural network architectures for glaucoma detection from retinal fundus images. The purpose of the project is both to compare previous architectures on new datasets, as well as to learn and understand their usage in each context.
 
-#### Technical requirements
+## Technical requirements
 Please refer to the `requirements.txt`.
 
-#### ML process summary
+## Machine learning process
 The project was separated in multiple Jupyter notebooks explaining each specific part of the project, which you can find below:
 
 1. [Data Collection & Exploration](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/1-data-collection-and-exploration.ipynb)
@@ -19,13 +19,13 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 4. [Evaluating ACRIMA Model Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/4-acrima-models-evaluation.ipynb)
 5. [Learning Resources](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/learning-resources.md)
 
-#### Project Challenges 
+## Project Challenges 
 1. Selecting a suitable project
 2. Acquiring the knowledge to finish the project
 3. Choosing an effective training strategy 
 4. Improving simple model prediction accuracy
 
-#### Lessons Learned
+## Lessons Learned
 1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
 2. Collect data early - it takes a while for images to download.
 3. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly.
@@ -33,16 +33,16 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 5. Try to test your data on a real life scenario as soon as possible, so you can discard poorly trained models.
 6. Check the changes you would undo before resetting to a previous git version - and if you don't, make sure you have backups.
  
-#### Results
+## Results
 
-#### References
+## References
 [1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext) - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*  
-[2] [CNNs for Automatic Glaucoma Assessment using Fundus Images: An Extensive Validation](https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-019-0649-y#Sec3)
-[3] [ACRIMA dataset (cropped images)](https://figshare.com/s/c2d31f850af14c5b5232)
+[2] [CNNs for Automatic Glaucoma Assessment using Fundus Images: An Extensive Validation](https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-019-0649-y#Sec3)  
+[3] [ACRIMA dataset (cropped images)](https://figshare.com/s/c2d31f850af14c5b5232)  
 [4] [Cataract dataset (full images)](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)
 
 <details>
-<summary><h4>Acknowledgements</h4></summary>
+<summary><h2>Acknowledgements</h2></summary>
 
 Thank you Xisca & Arek for the support, inspiration, and encouragement throughout the bootcamp and especially during the final project :star:
 </details>
