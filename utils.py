@@ -90,22 +90,38 @@ def visualize_results(history):
   plt.show()
 
 # Read new images and save the true labels in a numpy array (0 - glaucoma, 1 - normal)
-def get_testing_data(directory):
+def get_testing_data(directories,  input_shape):
+  """
+  Args:
+  directories = a list of directories
+  input_shape = the desired shape of the images, expressed as (x, y), as the 
+    color is inferred by the keras resize function
+  
+  Returns:
+  X = a numpy array containing all of the resized images
+  y = a numpy array containing all the labels based on the directory name
+  """
+
+
   X = []
   y = []
+  files = {}
 
-  files = os.listdir(directory)
-  for i, file in enumerate(files):
-    file_path = os.path.join(directory, file)
-    image = tf.keras.preprocessing.image.load_img(file_path)
-    image_data = tf.keras.preprocessing.image.img_to_array(image)
-    image_data = tf.keras.preprocessing.image.smart_resize(image_data, (178, 178))
-    X.append(image_data)    
+  for directory in directories:
+    files[directory] = os.listdir(directory)
 
-    if directory.split("/")[-1] == "glaucoma":
-      y.append(0)
-    elif directory.split("/")[-1] == "normal":
-      y.append(1)
+  for directory in files.keys():
+    for file in files[directory]:
+      file_path = os.path.join(directory, file)
+      image = tf.keras.preprocessing.image.load_img(file_path)
+      image_data = tf.keras.preprocessing.image.img_to_array(image)
+      image_data = tf.keras.preprocessing.image.smart_resize(image_data, input_shape)
+      X.append(image_data)    
+
+      if directory.split("/")[-1] == "glaucoma":
+        y.append(0)
+      elif directory.split("/")[-1] == "normal":
+        y.append(1)
 
   X = np.array(X)
   y = np.array(y)
