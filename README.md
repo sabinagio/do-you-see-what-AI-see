@@ -21,13 +21,14 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 #### Project Challenges 
 1. Selecting a suitable project
 2. Acquiring the knowledge to finish the project
-3. Choosing an effective training strategy  
+3. Choosing an effective training strategy 
 
 #### Lessons Learned
 1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
 2. Collect data early - it takes a while for images to download.
 3. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly.
 4. Ensure you're able to run your project in the cloud (either via Google Colab or a different cloud provider), as training might be too taxing for your local machine.
+5. Try to test your data on a real life scenario as soon as possible, so you can discard poorly trained models.
  
 #### Results
 
