@@ -1,11 +1,8 @@
 # Glaucoma detection from fundus images
 For a detailed introduction into eye diseases, glaucoma, and previous literature, please refer to [this presentation](link-to-presentation-on-GitHub).
 
-## Project context
-This project is part of the Ironhack Data Analytics Remote Part Time bootcamp and was completed in 3 weeks.
-
-## Project description
-In this project, I will be implementing previously used neural network architectures for glaucoma detection from retinal fundus images. The purpose of the project is both to compare previous architectures on new datasets, as well as to learn and understand their usage in each context.
+## About the project
+This project is part of the Ironhack Data Analytics Remote Part Time bootcamp and was completed in 3 weeks. The purpose of the project is to build a neural network that detects glaucoma from retinal fundus images and compare its results on a novel dataset to already established architectures.
 
 ## Technical requirements
 Please refer to the `requirements.txt`.
@@ -14,7 +11,7 @@ Please refer to the `requirements.txt`.
 The project was separated in multiple Jupyter notebooks explaining each specific part of the project, which you can find below:
 
 1. [Data Collection & Exploration](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/1-data-collection-and-exploration.ipynb)
-2. [Data Splitting & Augmentation](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/2-data-splitting-and-augmentation.ipynb)
+2. [Data Splitting, Augmentation, and Preprocessing](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/2-data-splitting-and-augmentation.ipynb)
 3. [Simple Neural Network Architectures & Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/3-simple-CNN-model-acrima-training.ipynb)
 4. [Evaluating ACRIMA Model Performance](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/4-acrima-models-evaluation.ipynb)
 5. [Learning Resources](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/learning-resources.md)
@@ -24,6 +21,7 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 2. Acquiring the knowledge to finish the project
 3. Choosing an effective training strategy 
 4. Improving simple model prediction accuracy
+5. Cropping the test images for evaluation
 
 ## Lessons Learned
 1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
@@ -33,7 +31,14 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 5. Try to test your data on a real life scenario as soon as possible, so you can discard poorly trained models.
 6. Check the changes you would undo before resetting to a previous git version - and if you don't, make sure you have backups.
  
+## Limitations
+1. The deep learning model might have trouble with images where the optic nerve head is damaged.
+2. Cropping the images using the current code requires an already labelled dataset.
+
 ## Results
+The simple CNN model is outperformed by more complex architectures.
+
+## Conclusions
 
 ## References
 [1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext) - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*  
