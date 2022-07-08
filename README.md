@@ -1,5 +1,5 @@
 # Glaucoma detection from fundus images
-For a detailed introduction into eye diseases, glaucoma, and previous literature, please refer to [this presentation](link-to-presentation-on-GitHub).
+For a detailed introduction into eye diseases, glaucoma, and previous literature, please refer to [this presentation](https://docs.google.com/presentation/d/1F_ygRbjZ08RPUSjtxJwbNJWhHZWojSwe-Ly8sdUpPnI/edit?usp=sharing).
 
 <img src="https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/data/kaggle_dataset/glaucoma/Glaucoma_051.png" alt="Retinal fundus image of a glaucomatous eye" width=500 height=auto>
 
