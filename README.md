@@ -42,10 +42,10 @@ The simple CNN model is outperformed by more complex architectures.
 
 ## References
 [1] [A global review of publicly available datasets for ophthalmological imaging: barriers to access, usability, and generalisability](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30240-5/fulltext) - *Saad M Khan, Xiaoxuan Liu, Siddharth Nath, Edward Korot, Livia Faes, Siegfried K Wagner et al.*  
-[2] [CNNs for Automatic Glaucoma Assessment using Fundus Images: An Extensive Validation](https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-019-0649-y#Sec3) - *Diaz-Pinto, A., Morales, S., Naranjo, V. et al.*  
-[3] [Joint Optic Disc and Cup Segmentation Based on Multi-label Deep Network and Polar Transformation](https://arxiv.org/abs/1801.00926) - *Huazhu Fu, Jun Cheng, Yanwu Xu, Damon Wing Kee Wong, Jiang Liu, and Xiaochun Cao*  
-[4] [ACRIMA dataset (cropped images)](https://figshare.com/s/c2d31f850af14c5b5232)  
-[5] [Cataract dataset (full images)](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)
+[2] [ACRIMA dataset (cropped images)](https://figshare.com/s/c2d31f850af14c5b5232)  
+[3] [Cataract dataset (full images)](https://www.kaggle.com/datasets/jr2ngb/cataractdataset)  
+[4] [Joint Optic Disc and Cup Segmentation Based on Multi-label Deep Network and Polar Transformation](https://arxiv.org/abs/1801.00926) - *Huazhu Fu, Jun Cheng, Yanwu Xu, Damon Wing Kee Wong, Jiang Liu, and Xiaochun Cao*  
+[5] [CNNs for Automatic Glaucoma Assessment using Fundus Images: An Extensive Validation](https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-019-0649-y#Sec3) - *Diaz-Pinto, A., Morales, S., Naranjo, V. et al.*  
 
 <details>
 <summary><h2>Acknowledgements</h2></summary>
