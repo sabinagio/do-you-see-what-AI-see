@@ -1,1 +1,6 @@
 pre_trained_models/*
+pyvenv.cfg
+lib/*
+lib64/*
+include/*
+bin/*
