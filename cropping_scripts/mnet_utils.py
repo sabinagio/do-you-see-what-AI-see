@@ -8,8 +8,8 @@ import numpy as np
 from PIL import Image
 from scipy.ndimage import binary_fill_holes
 from skimage.measure import label, regionprops
-from tensorflow.python.keras import backend as K
-from tensorflow.python.keras.preprocessing import image
+from tensorflow.keras import backend as K
+from tensorflow.keras.preprocessing import image
 
 
 def pro_process(temp_img, input_size):
