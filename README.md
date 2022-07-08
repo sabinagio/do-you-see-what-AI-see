@@ -12,10 +12,10 @@ Please refer to the `requirements.txt`.
 ## Machine learning process
 The project was separated in multiple Jupyter notebooks explaining each specific part of the project, which you can find below:
 
-1. [Data Collection & Exploration](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/1-data-collection-and-exploration.ipynb)
-2. [Data Splitting, Augmentation, and Preprocessing](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/2-data-splitting-and-augmentation.ipynb)
-3. [Simple Neural Network Training](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/3-simple-CNN-model-acrima-training.ipynb)  
-4. [Evaluation of Multiple Neural Networks on a New Dataset](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/4-acrima-models-evaluation.ipynb)  
+1. [Data Collection & Exploration](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/scripts/1-data-collection-and-exploration.ipynb)
+2. [Data Splitting, Augmentation, and Preprocessing](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/scripts/2.data-splitting-augmentation-and-preprocessing.ipynb)
+3. [Simple Neural Network Training](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/scripts/3-simple-CNN-model-acrima-training.ipynb)  
+4. [Evaluation of Multiple Neural Networks on a New Dataset](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/scripts/4-acrima-models-evaluation.ipynb)  
 5. [Learning Resources](https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/learning-resources.md)
 
 <details>
