@@ -20,21 +20,25 @@ The project was separated in multiple Jupyter notebooks explaining each specific
 
 <details>
 <summary><h2> Project Challenges </h2></summary>
-1. Selecting a suitable project
-2. Acquiring the knowledge to finish the project
-3. Choosing an effective training strategy 
-4. Improving simple model prediction accuracy
-5. Cropping the test images for evaluation
+<ol>
+<li> Selecting a suitable project </li>
+<li> Acquiring the knowledge to finish the project </li>
+<li> Choosing an effective training strategy </li>
+<li> Improving simple model prediction accuracy </li>
+<li> Cropping the test images for evaluation </li>
+</ol>
 </details>
 
 <details>
 <summary><h2> Lessons Learned </h2></summary>
-1. Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought.
-2. Collect data early - it takes a while for images to download.
-3. Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly.
-4. Ensure you're able to run your project in the cloud (either via Google Colab or a different cloud provider), as training might be too taxing for your local machine.
-5. Try to test your data on a real life scenario as soon as possible, so you can discard poorly trained models.
-6. Check the changes you would undo before resetting to a previous git version - and if you don't, make sure you have backups.
+<ol> 
+<li> Do your research before choosing the project - you might realize that what you set out to do is not as impactful as you initially thought. </li>
+<li> Collect data early - it takes a while for images to download. </li>
+<li> Keep backups for your data before you start processing it - e.g. `shutil.move()` can be a dangerous command if used improperly. </li>
+<li> Ensure you're able to run your project in the cloud (either via Google Colab or a different cloud provider), as training might be too taxing for your local machine. </li>
+<li> Try to test your data on a real life scenario as soon as possible, so you can discard poorly trained models. </li>
+<li> Check the changes you would undo before resetting to a previous git version - and if you don't, make sure you have backups. </li>
+</ol>
 </details>
  
 ## Limitations
