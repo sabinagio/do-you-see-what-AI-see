@@ -1,6 +1,8 @@
 # Glaucoma detection from fundus images
 For a detailed introduction into eye diseases, glaucoma, and previous literature, please refer to [this presentation](link-to-presentation-on-GitHub).
 
+<img src="https://github.com/sabinagio/do-you-see-what-AI-see/blob/master/data/kaggle_dataset/glaucoma/Glaucoma_051.png" alt="Retinal fundus image of a glaucomatous eye" width=500 height=auto>
+
 ## About the project
 This project is part of the Ironhack Data Analytics Remote Part Time bootcamp and was completed in 3 weeks. The purpose of the project is to build a neural network that detects glaucoma from retinal fundus images and compare its results on a novel dataset to already established architectures.
 
