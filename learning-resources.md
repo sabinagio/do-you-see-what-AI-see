@@ -1,4 +1,4 @@
-4. Learning Resources
+## Learning Resources
 
 I found the following material useful for completing this project - in this order of study:
 
